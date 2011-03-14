@@ -1,0 +1,143 @@
+@charset "utf-8";
+/*RESET
+-------------------------------------------------------------- */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, textarea, p, blockquote, th, td { margin: 0; padding: 0 }
+table { border-collapse: collapse; border-spacing: 0 }
+fieldset, img { border: 0 }
+address, caption, cite, code, dfn, em, strong, th, var { font-style: normal; font-weight: normal }
+ol, ul { list-style: none }
+caption, th { text-align: left }
+h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: inherit }
+q:before, q:after { content: '' }
+addr, acronym { border: 0 }
+strong { font-weight:700 }
+input { margin:0 }
+/*CLEARFIX
+-------------------------------------------------------------- */
+.clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/*FONT
+-------------------------------------------------------------- */
+.f14 { font-size: 14px }
+.f16 { font-size: 16px }
+.f20 { font-size: 20px }
+.fb { font-weight: 700 }
+.fn { font-weight: normal }
+.t2 { text-indent: 2em }
+.lh18 { line-height:18px }
+.lh22 { line-height:22px }
+.lh24 { line-height:24px }
+.lh26 { line-height:26px }
+.unl { text-decoration: underline }
+.no_unl { text-decoration: none }
+/*POSITION
+-------------------------------------------------------------- */
+.tl { text-align: left }
+.tc { text-align: center }
+.tr { text-align: right }
+.bc { margin-left: auto; margin-right: auto }
+.fl { float: left; display: inline }
+.fr { float: right; display: inline }
+.cb { clear: both }
+.cl { clear: left }
+.cr { clear: right }
+.vm { vertical-align: middle; position:relative; top:-1px }
+.vt { vertical-align: top }
+.pr { position: relative }
+.pa { position: absolute }
+.abs-right { position: absolute; right: 0 }
+.abs-left { position: absolute; left: 0 }
+.hidden { visibility: hidden }
+.none { display: none }
+.ofh { overflow: hidden }
+/*WIDTH / HEIGHT
+-------------------------------------------------------------- */
+.h233 { height:233px; overflow:hidden}
+.h248 { height:248px; overflow:hidden}
+.h250 { height:250px; overflow:hidden}
+.h406 { height:406px; overflow:hidden}
+.h678 { height:678px; overflow:hidden}
+.h680 { height:680px; overflow:hidden}
+/*MARGIN / PADDING
+-------------------------------------------------------------- */
+.p10 { padding:10px; }
+.pt10 { padding-top:10px }
+.pr10 { padding-right:10px }
+.pb10 { padding-bottom:10px }
+.pl10 { padding-left:10px }
+.mt10 { margin-top:10px; }
+.mr10 { margin-right:10px; }
+.mb10 { margin-bottom:10px }
+.ml10 { margin-left:10px }
+/*PAGE
+-------------------------------------------------------------- */
+body { font-size:12px; }
+.red, .red a { color:#C13239 }
+.gray, .gray a { color:#898989 }
+.border_t { border-top:1px dotted #B3B3B3 }
+#wrap { width:950px; margin:0 auto }
+a { color:#000; text-decoration:none }
+a:hover { text-decoration:underline }
+#top_link { padding:10px; border-bottom:1px solid #DCDCDC; }
+#logo { padding:12px 0; height:50px; overflow:hidden; }
+#nav { background:url(../images/bg.png); height:70px; }
+.nav_title { width:120px; padding-right:80px; text-align:center; font:bold 20px/38px \9ED1\4F53; color:#FFF }
+.menu { height:38px; line-height:38px; }
+.menu h2 { display:inline }
+.menu a { display:inline-block; padding:0 10px; color:#FFF }
+.menu a.current { font-weight:700 }
+.crumbs { width:600px; height:22px; overflow:hidden; line-height:22px; padding-left:30px; margin-top:5px; background:url(../images/bg.png) 12px -130px no-repeat }
+.crumbs a { color:#666 }
+.crumbs h1 { display:inline; font-weight:400 }
+.search { width:234px; height:19px; margin:5px 10px 0 0; border:1px solid #B4B4B4; }
+.search .txt { height:17px; width:200px; border:0; margin:1px; padding:0 }
+.search .btn { background:url(../images/bg.png) 0 -71px; width:17px; height:17px; margin:1px; border:none; cursor:pointer }
+.list_title { background:url(../images/bg.png) 0 -160px; color:#CA010C; font:bold 14px/26px \9ED1\4F53; padding-left:15px; margin-top:15px; }
+.list_con { background:url(../images/bg2.png); border-top:1px solid #DCDCDC; border-bottom:1px solid #DCDCDC }
+.list_con li { float:left; display:inline; width:180px; white-space:nowrap; overflow:hidden; padding-left:37px; margin-right:20px; line-height:26px; line-height:26px; vertical-align:bottom }
+.info_box1 { float:left; width:318px; border:1px solid #DCDCDC; margin-top:10px }
+.info_box1_title { height:28px; background:url(../images/bg.png) -561px -71px; }
+.info_box1_title h3 { float:left; height:28px; font:bold 14px/28px \5B8B\4F53; color:#FFF; background:url(../images/bg.png) right -100px; padding:0 30px 0 15px; }
+.info_box2 { float:left; display:inline; margin:0 15px; width:350px; margin-top:10px; }
+.info_box2_title { height:26px; font:bold 14px/26px \5B8B\4F53; background:url(../images/bg.png) -171px -100px; padding:2px 0 0 25px; }
+.info_box2 h4 { font:bold 16px/26px \9ED1\4F53; margin:5px 0 }
+.info_box3 { float:left; width:248px; border:1px solid #DCDCDC; background:#F9F9F9; margin-top:10px }
+.info_box3_title { height:28px; font:bold 14px/28px \5B8B\4F53; background:url(../images/bg.png) -171px -71px; padding-left:25px; }
+.info_box3 .more { float:right; padding-right:5px; height:28px; line-height:28px; background:url(../images/bg.png) -200px -71px; }
+.info_list1 li { width:276px; white-space:nowrap; overflow:hidden; height:24px; line-height:24px; background:url(../images/bg.png) -947px -132px no-repeat; padding-left:10px; }
+.info_list1_top1 { padding-bottom:3px; width:276px; white-space:nowrap; overflow:hidden; }
+.info_list2 { margin:8px 0 0 10px; font-size:14px }
+.info_list2 li { width:322px; white-space:nowrap; overflow:hidden; height:26px; line-height:26px; background:url(../images/bg.png) -947px -130px no-repeat; padding-left:10px; }
+.info_list3 { width:226px; margin:0 0 0 10px; padding-top:5px; }
+.info_list3 li { width:216px; white-space:nowrap; overflow:hidden; height:22px; line-height:22px; background:url(../images/bg.png) -947px -134px no-repeat; padding-left:10px; }
+.info_img1 { width:228px; margin:8px auto 0 auto; padding-bottom:5px; border-bottom:1px dotted #B3B3B3 }
+.info_img1 img { float:left; display:inline; margin:0 7px; padding:4px; background:#FFF; border:1px solid #D3D6D5 }
+.info_img1 p { float:left; width:114px; padding-top:3px; }
+.info_img1 li { float:left; width:114px; text-align:center; }
+.info_img2 li { float:left; width:106px; height:117px; padding-top:10px; }
+.info_img2 li img { float:left; display:inline; margin:0 4px; width:98px; }
+.info_img2 li p { float:left; display:inline; margin:0 5px; width:96px; white-space:nowrap; overflow:hidden; text-align:center; height:24px; line-height:24px; }
+.page { color:#C4C4C4 }
+.page a.current { color:#BF0300; font-weight:700 }
+.page_title { font:bold 20px/20px \9ED1\4F53; }
+.index_page { }
+.index_page_l { float:left; width:320px; }
+.index_page_c { float:left; width:380px; }
+.index_page_r { float:left; width:250px; }
+#footer { width:950px; margin:10px auto 0 auto; padding:20px 0; border-top:1px solid #DCDCDC; line-height:22px; text-align:center; }
+/*index*/
+.homeFocus , .focusNews{ width:500px; height:296px; overflow:hidden;}
+#ifocus { width:314px; height:400px; border:3px solid #C11720; overflow:hidden; position:relative}
+#ifocus_pic { width:314px; height:400px;}
+#ifocus_piclist { position:absolute; left:0; top:0;}
+#ifocus_piclist li { width:314px; height:400px; overflow:hidden; }
+#ifocus_piclist img { width:314px; height:400px; }
+#ifocus_btn { width:312px; position:absolute; bottom:0; z-index:2}
+#ifocus_btn li { float:left; width:68px; height:68px; padding:5px; cursor:pointer; opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50); }
+#ifocus_btn img { width:66px; height:66px; border:1px solid #FFF}
+#ifocus_btn .current { background: url(../images/index/ifocus_btn_bg.gif) no-repeat; opacity:1; -moz-opacity:1; filter:alpha(opacity=100); }	
+#ifocus_opdiv { position:absolute; left:0; bottom:0; width:314px; height:130px; background:#000; opacity:0.5; -moz-opacity:0.5; filter:alpha(opacity=50); border-top:1px solid #FFF}
+#ifocus_tx { position:absolute; left:0; bottom:80px; color:#FFF;width:314px; height:50px; text-align:center;font:bold 18px/50px \9ED1\4F53; }
+#ifocus_tx .normal { display:none; }
